@@ -4,12 +4,25 @@ To run this project, Create a `.env` file in the root of your project and add th
 FAUNA_GRAPHQL_SECRET_KEY=your_fauna_secret_key
 ```
 
+Install Netlify-cli as global dependency
+
+```js
+npm install netlify-cli -g
+
+OR 
+
+sudo npm install netlify-cli -g
+```
+
 and then open terminal and execute the following commands in sequence
 
 ```js
 1. yarn install
-2. yarn start
+2. netlify dev
 ```
+
+and access the application at http://localhost:8888/
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
