@@ -1,0 +1,9 @@
+type Bookmark {
+  title: String!
+  url: String!
+  tag: String!
+}
+
+type Query {
+  bookmarks: [Bookmark!]!
+}
