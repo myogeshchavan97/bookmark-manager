@@ -1,3 +1,16 @@
+To run this project, Create a `.env` file in the root of your project and add the following code inside it
+
+```js
+FAUNA_GRAPHQL_SECRET_KEY=your_fauna_secret_key
+```
+
+and then open terminal and execute the following commands in sequence
+
+```js
+1. yarn install
+2. yarn start
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
